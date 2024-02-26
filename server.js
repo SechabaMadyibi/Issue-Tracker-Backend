@@ -7,7 +7,7 @@ const app = express();
 
 installHandler(app);
 
-const port = process.env.API_SERVER_PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //first connects to database then start the express application
 (async function start() {
